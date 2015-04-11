@@ -8,27 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		43D63BD21AD7A21800A46D35 /* SystemConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63BD11AD7A21800A46D35 /* SystemConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43D63BD81AD7A21800A46D35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D63BCC1AD7A21800A46D35 /* SystemConfiguration.framework */; };
-		43D63BDF1AD7A21800A46D35 /* SystemConfigurationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63BDE1AD7A21800A46D35 /* SystemConfigurationTests.m */; };
+		43D63BEE1AD7A3E100A46D35 /* SCNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63BEC1AD7A3E100A46D35 /* SCNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63BEF1AD7A3E100A46D35 /* SCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63BED1AD7A3E100A46D35 /* SCNetwork.m */; };
+		43D63C341AD7AA0C00A46D35 /* SCDynamicStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C321AD7AA0C00A46D35 /* SCDynamicStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C351AD7AA0C00A46D35 /* SCDynamicStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C331AD7AA0C00A46D35 /* SCDynamicStore.m */; };
+		43D63C381AD7AA1400A46D35 /* SCDynamicStoreKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C361AD7AA1400A46D35 /* SCDynamicStoreKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C391AD7AA1400A46D35 /* SCDynamicStoreKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C371AD7AA1400A46D35 /* SCDynamicStoreKey.m */; };
+		43D63C3C1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C3A1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C3D1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C3B1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.m */; };
+		43D63C401AD7AA2600A46D35 /* SCPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C3E1AD7AA2600A46D35 /* SCPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C411AD7AA2600A46D35 /* SCPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C3F1AD7AA2600A46D35 /* SCPreferences.m */; };
+		43D63C441AD7AA2F00A46D35 /* SCPreferencesPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C421AD7AA2F00A46D35 /* SCPreferencesPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C451AD7AA2F00A46D35 /* SCPreferencesPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C431AD7AA2F00A46D35 /* SCPreferencesPath.m */; };
+		43D63C481AD7AA3900A46D35 /* SCPreferencesSetSpecific.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C461AD7AA3900A46D35 /* SCPreferencesSetSpecific.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C491AD7AA3900A46D35 /* SCPreferencesSetSpecific.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C471AD7AA3900A46D35 /* SCPreferencesSetSpecific.m */; };
+		43D63C4C1AD7AA4300A46D35 /* SCSchemaDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C4A1AD7AA4300A46D35 /* SCSchemaDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C4D1AD7AA4300A46D35 /* SCSchemaDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C4B1AD7AA4300A46D35 /* SCSchemaDefinitions.m */; };
+		43D63C501AD7AA4E00A46D35 /* SCNetworkConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C4E1AD7AA4E00A46D35 /* SCNetworkConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C511AD7AA4E00A46D35 /* SCNetworkConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C4F1AD7AA4E00A46D35 /* SCNetworkConfiguration.m */; };
+		43D63C541AD7AA5700A46D35 /* SCNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C521AD7AA5700A46D35 /* SCNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C551AD7AA5700A46D35 /* SCNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C531AD7AA5700A46D35 /* SCNetworkReachability.m */; };
+		43D63C581AD7AA6000A46D35 /* SCNetworkConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C561AD7AA6000A46D35 /* SCNetworkConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C591AD7AA6000A46D35 /* SCNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C571AD7AA6000A46D35 /* SCNetworkConnection.m */; };
+		43D63C5E1AD7AB8500A46D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D63C5D1AD7AB8500A46D35 /* Foundation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		43D63BD91AD7A21800A46D35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 43D63BC31AD7A21800A46D35 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43D63BCB1AD7A21800A46D35;
-			remoteInfo = SystemConfiguration;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		43D63BCC1AD7A21800A46D35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SystemConfiguration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D63BD01AD7A21800A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D63BD11AD7A21800A46D35 /* SystemConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemConfiguration.h; sourceTree = "<group>"; };
-		43D63BD71AD7A21800A46D35 /* SystemConfigurationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemConfigurationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43D63BDD1AD7A21800A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43D63BDE1AD7A21800A46D35 /* SystemConfigurationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemConfigurationTests.m; sourceTree = "<group>"; };
+		43D63BE91AD7A23F00A46D35 /* Android-arm.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-arm.xcconfig"; sourceTree = "<group>"; };
+		43D63BEA1AD7A23F00A46D35 /* Android-x86.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-x86.xcconfig"; sourceTree = "<group>"; };
+		43D63BEB1AD7A23F00A46D35 /* Android.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Android.xcconfig; sourceTree = "<group>"; };
+		43D63BEC1AD7A3E100A46D35 /* SCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNetwork.h; sourceTree = "<group>"; };
+		43D63BED1AD7A3E100A46D35 /* SCNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNetwork.m; sourceTree = "<group>"; };
+		43D63C321AD7AA0C00A46D35 /* SCDynamicStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDynamicStore.h; sourceTree = "<group>"; };
+		43D63C331AD7AA0C00A46D35 /* SCDynamicStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDynamicStore.m; sourceTree = "<group>"; };
+		43D63C361AD7AA1400A46D35 /* SCDynamicStoreKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDynamicStoreKey.h; sourceTree = "<group>"; };
+		43D63C371AD7AA1400A46D35 /* SCDynamicStoreKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDynamicStoreKey.m; sourceTree = "<group>"; };
+		43D63C3A1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDynamicStoreCopySpecific.h; sourceTree = "<group>"; };
+		43D63C3B1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDynamicStoreCopySpecific.m; sourceTree = "<group>"; };
+		43D63C3E1AD7AA2600A46D35 /* SCPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPreferences.h; sourceTree = "<group>"; };
+		43D63C3F1AD7AA2600A46D35 /* SCPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPreferences.m; sourceTree = "<group>"; };
+		43D63C421AD7AA2F00A46D35 /* SCPreferencesPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPreferencesPath.h; sourceTree = "<group>"; };
+		43D63C431AD7AA2F00A46D35 /* SCPreferencesPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPreferencesPath.m; sourceTree = "<group>"; };
+		43D63C461AD7AA3900A46D35 /* SCPreferencesSetSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPreferencesSetSpecific.h; sourceTree = "<group>"; };
+		43D63C471AD7AA3900A46D35 /* SCPreferencesSetSpecific.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPreferencesSetSpecific.m; sourceTree = "<group>"; };
+		43D63C4A1AD7AA4300A46D35 /* SCSchemaDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSchemaDefinitions.h; sourceTree = "<group>"; };
+		43D63C4B1AD7AA4300A46D35 /* SCSchemaDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSchemaDefinitions.m; sourceTree = "<group>"; };
+		43D63C4E1AD7AA4E00A46D35 /* SCNetworkConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNetworkConfiguration.h; sourceTree = "<group>"; };
+		43D63C4F1AD7AA4E00A46D35 /* SCNetworkConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNetworkConfiguration.m; sourceTree = "<group>"; };
+		43D63C521AD7AA5700A46D35 /* SCNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNetworkReachability.h; sourceTree = "<group>"; };
+		43D63C531AD7AA5700A46D35 /* SCNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNetworkReachability.m; sourceTree = "<group>"; };
+		43D63C561AD7AA6000A46D35 /* SCNetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNetworkConnection.h; sourceTree = "<group>"; };
+		43D63C571AD7AA6000A46D35 /* SCNetworkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNetworkConnection.m; sourceTree = "<group>"; };
+		43D63C5D1AD7AB8500A46D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,14 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43D63BD41AD7A21800A46D35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63BD81AD7A21800A46D35 /* SystemConfiguration.framework in Frameworks */,
+				43D63C5E1AD7AB8500A46D35 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +80,9 @@
 		43D63BC21AD7A21800A46D35 = {
 			isa = PBXGroup;
 			children = (
+				43D63C5D1AD7AB8500A46D35 /* Foundation.framework */,
+				43D63BE81AD7A23F00A46D35 /* xcconfig */,
 				43D63BCE1AD7A21800A46D35 /* SystemConfiguration */,
-				43D63BDB1AD7A21800A46D35 /* SystemConfigurationTests */,
 				43D63BCD1AD7A21800A46D35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				43D63BCC1AD7A21800A46D35 /* SystemConfiguration.framework */,
-				43D63BD71AD7A21800A46D35 /* SystemConfigurationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +99,13 @@
 			isa = PBXGroup;
 			children = (
 				43D63BD11AD7A21800A46D35 /* SystemConfiguration.h */,
+				43D63C5A1AD7AA8800A46D35 /* SCDynamicStore */,
+				43D63C5B1AD7AA9600A46D35 /* SCPreferences */,
+				43D63C4A1AD7AA4300A46D35 /* SCSchemaDefinitions.h */,
+				43D63C4B1AD7AA4300A46D35 /* SCSchemaDefinitions.m */,
+				43D63C4E1AD7AA4E00A46D35 /* SCNetworkConfiguration.h */,
+				43D63C4F1AD7AA4E00A46D35 /* SCNetworkConfiguration.m */,
+				43D63C5C1AD7AAA900A46D35 /* SCNetworkConnection */,
 				43D63BCF1AD7A21800A46D35 /* Supporting Files */,
 			);
 			path = SystemConfiguration;
@@ -85,21 +119,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		43D63BDB1AD7A21800A46D35 /* SystemConfigurationTests */ = {
+		43D63BE81AD7A23F00A46D35 /* xcconfig */ = {
 			isa = PBXGroup;
 			children = (
-				43D63BDE1AD7A21800A46D35 /* SystemConfigurationTests.m */,
-				43D63BDC1AD7A21800A46D35 /* Supporting Files */,
+				43D63BE91AD7A23F00A46D35 /* Android-arm.xcconfig */,
+				43D63BEA1AD7A23F00A46D35 /* Android-x86.xcconfig */,
+				43D63BEB1AD7A23F00A46D35 /* Android.xcconfig */,
 			);
-			path = SystemConfigurationTests;
+			path = xcconfig;
 			sourceTree = "<group>";
 		};
-		43D63BDC1AD7A21800A46D35 /* Supporting Files */ = {
+		43D63C5A1AD7AA8800A46D35 /* SCDynamicStore */ = {
 			isa = PBXGroup;
 			children = (
-				43D63BDD1AD7A21800A46D35 /* Info.plist */,
+				43D63C321AD7AA0C00A46D35 /* SCDynamicStore.h */,
+				43D63C331AD7AA0C00A46D35 /* SCDynamicStore.m */,
+				43D63C361AD7AA1400A46D35 /* SCDynamicStoreKey.h */,
+				43D63C371AD7AA1400A46D35 /* SCDynamicStoreKey.m */,
+				43D63C3A1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.h */,
+				43D63C3B1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.m */,
 			);
-			name = "Supporting Files";
+			name = SCDynamicStore;
+			sourceTree = "<group>";
+		};
+		43D63C5B1AD7AA9600A46D35 /* SCPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				43D63C3E1AD7AA2600A46D35 /* SCPreferences.h */,
+				43D63C3F1AD7AA2600A46D35 /* SCPreferences.m */,
+				43D63C421AD7AA2F00A46D35 /* SCPreferencesPath.h */,
+				43D63C431AD7AA2F00A46D35 /* SCPreferencesPath.m */,
+				43D63C461AD7AA3900A46D35 /* SCPreferencesSetSpecific.h */,
+				43D63C471AD7AA3900A46D35 /* SCPreferencesSetSpecific.m */,
+			);
+			name = SCPreferences;
+			sourceTree = "<group>";
+		};
+		43D63C5C1AD7AAA900A46D35 /* SCNetworkConnection */ = {
+			isa = PBXGroup;
+			children = (
+				43D63BEC1AD7A3E100A46D35 /* SCNetwork.h */,
+				43D63BED1AD7A3E100A46D35 /* SCNetwork.m */,
+				43D63C521AD7AA5700A46D35 /* SCNetworkReachability.h */,
+				43D63C531AD7AA5700A46D35 /* SCNetworkReachability.m */,
+				43D63C561AD7AA6000A46D35 /* SCNetworkConnection.h */,
+				43D63C571AD7AA6000A46D35 /* SCNetworkConnection.m */,
+			);
+			name = SCNetworkConnection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +176,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D63BD21AD7A21800A46D35 /* SystemConfiguration.h in Headers */,
+				43D63C501AD7AA4E00A46D35 /* SCNetworkConfiguration.h in Headers */,
+				43D63C3C1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.h in Headers */,
+				43D63C481AD7AA3900A46D35 /* SCPreferencesSetSpecific.h in Headers */,
+				43D63C341AD7AA0C00A46D35 /* SCDynamicStore.h in Headers */,
+				43D63C381AD7AA1400A46D35 /* SCDynamicStoreKey.h in Headers */,
+				43D63C4C1AD7AA4300A46D35 /* SCSchemaDefinitions.h in Headers */,
+				43D63C441AD7AA2F00A46D35 /* SCPreferencesPath.h in Headers */,
+				43D63C541AD7AA5700A46D35 /* SCNetworkReachability.h in Headers */,
+				43D63C401AD7AA2600A46D35 /* SCPreferences.h in Headers */,
+				43D63C581AD7AA6000A46D35 /* SCNetworkConnection.h in Headers */,
+				43D63BEE1AD7A3E100A46D35 /* SCNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +201,7 @@
 				43D63BC81AD7A21800A46D35 /* Frameworks */,
 				43D63BC91AD7A21800A46D35 /* Headers */,
 				43D63BCA1AD7A21800A46D35 /* Resources */,
+				43D63BF01AD7A4B800A46D35 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,24 +211,6 @@
 			productName = SystemConfiguration;
 			productReference = 43D63BCC1AD7A21800A46D35 /* SystemConfiguration.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		43D63BD61AD7A21800A46D35 /* SystemConfigurationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43D63BE51AD7A21800A46D35 /* Build configuration list for PBXNativeTarget "SystemConfigurationTests" */;
-			buildPhases = (
-				43D63BD31AD7A21800A46D35 /* Sources */,
-				43D63BD41AD7A21800A46D35 /* Frameworks */,
-				43D63BD51AD7A21800A46D35 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43D63BDA1AD7A21800A46D35 /* PBXTargetDependency */,
-			);
-			name = SystemConfigurationTests;
-			productName = SystemConfigurationTests;
-			productReference = 43D63BD71AD7A21800A46D35 /* SystemConfigurationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,9 +222,6 @@
 				ORGANIZATIONNAME = "Shanghai TinyNetwork Inc.";
 				TargetAttributes = {
 					43D63BCB1AD7A21800A46D35 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					43D63BD61AD7A21800A46D35 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -182,7 +239,6 @@
 			projectRoot = "";
 			targets = (
 				43D63BCB1AD7A21800A46D35 /* SystemConfiguration */,
-				43D63BD61AD7A21800A46D35 /* SystemConfigurationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,40 +251,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43D63BD51AD7A21800A46D35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43D63BF01AD7A4B800A46D35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pushd \"$SDK_LIB_PATH\"\nln -sf \"$LD_DYLIB_INSTALL_NAME\" \"lib$PRODUCT_NAME.so\"\npopd\n\npushd \"$SDK_ROOT/usr/include\"\nln -sf \"$INSTALL_PATH/$PUBLIC_HEADERS_FOLDER_PATH\" \"$PRODUCT_NAME\"\npopd\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43D63BC71AD7A21800A46D35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43D63BD31AD7A21800A46D35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63BDF1AD7A21800A46D35 /* SystemConfigurationTests.m in Sources */,
+				43D63C491AD7AA3900A46D35 /* SCPreferencesSetSpecific.m in Sources */,
+				43D63C551AD7AA5700A46D35 /* SCNetworkReachability.m in Sources */,
+				43D63C3D1AD7AA1D00A46D35 /* SCDynamicStoreCopySpecific.m in Sources */,
+				43D63C411AD7AA2600A46D35 /* SCPreferences.m in Sources */,
+				43D63C4D1AD7AA4300A46D35 /* SCSchemaDefinitions.m in Sources */,
+				43D63BEF1AD7A3E100A46D35 /* SCNetwork.m in Sources */,
+				43D63C351AD7AA0C00A46D35 /* SCDynamicStore.m in Sources */,
+				43D63C391AD7AA1400A46D35 /* SCDynamicStoreKey.m in Sources */,
+				43D63C591AD7AA6000A46D35 /* SCNetworkConnection.m in Sources */,
+				43D63C511AD7AA4E00A46D35 /* SCNetworkConfiguration.m in Sources */,
+				43D63C451AD7AA2F00A46D35 /* SCPreferencesPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		43D63BDA1AD7A21800A46D35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 43D63BCB1AD7A21800A46D35 /* SystemConfiguration */;
-			targetProxy = 43D63BD91AD7A21800A46D35 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		43D63BE01AD7A21800A46D35 /* Debug */ = {
@@ -268,7 +328,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -305,7 +365,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -313,67 +373,35 @@
 		};
 		43D63BE31AD7A21800A46D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63BEB1AD7A23F00A46D35 /* Android.xcconfig */;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = SystemConfiguration/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
 		43D63BE41AD7A21800A46D35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63BEB1AD7A23F00A46D35 /* Android.xcconfig */;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = SystemConfiguration/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		43D63BE61AD7A21800A46D35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SystemConfigurationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		43D63BE71AD7A21800A46D35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SystemConfigurationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -394,14 +422,6 @@
 			buildConfigurations = (
 				43D63BE31AD7A21800A46D35 /* Debug */,
 				43D63BE41AD7A21800A46D35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		43D63BE51AD7A21800A46D35 /* Build configuration list for PBXNativeTarget "SystemConfigurationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43D63BE61AD7A21800A46D35 /* Debug */,
-				43D63BE71AD7A21800A46D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
